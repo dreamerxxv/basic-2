@@ -9,35 +9,34 @@
 
 html, body{
     display: grid;
-    height: 50%;
+    height: 100%;
     place-items: center;
 }
 
-.btn{ 
+.btn{
     height: 80px;
     width: 250px;
-    background: #ebeef1;
+    background: white;
     display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 4px 
-    rgba(14, 24, 33, 0.16);
+    text-align: center;
     justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px -1px 3px 4px rgba(14, 24, 23, 0.16);
 }
 
 button{
     height: 40px;
     font-size: 12px;
     font-weight: 500;
-    position: relative;
     width: 130px;
+    position: relative;
     border: none;
     background-color: #ebeef1;
     border-radius: 20px;
-    box-shadow: 
-    4px 4px 3px -1px rgba(10, 99, 169, 0.16),
-               -4px -4px 3px -1px rgba(225,  225, 225, 0.70);
+    box-shadow: 4px 4px 3px -1px
+    rgba(10, 99, 169, 0.16), -4px -4px 3px -1px
+    rgba(225, 225, 225, 0.75);
 }
 
 button:hover{
